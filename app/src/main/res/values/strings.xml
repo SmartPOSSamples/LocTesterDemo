@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">LocTester</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="logcat_output">logcat output</string>
+    <string name="logcat_clear">logcat clear</string>
+    <string name="interval_format_error">The format of interval-time is error!</string>
+    <string name="introduction">Introduction\n Erase TK and MK</string>
+
+    <string name="test_1">refresh</string>
+    <string name="test_2">Test2</string>
+    <string name="test_3">Test3</string>
+    <string name="test_4">Test4</string>
+
+    <string name="settings">Clear Logs</string>
+
+
+    <!-- [CHAR LIMIT=NONE] Activity title for Process Stats summary -->
+    <string name="process_stats_summary_title">Process Stats</string>
+    <!-- [CHAR LIMIT=NONE] Activity title summary for Process Stats summary -->
+    <string name="process_stats_summary">Geeky stats about running processes</string>
+    <!-- [CHAR LIMIT=NONE] Label for amount of memory use -->
+    <string name="app_memory_use">Memory use</string>
+    <!-- [CHAR LIMIT=NONE] Label for process stats, duration of time the stats are over;
+         timeDuration is a duration such as "1h 30m" -->
+    <string name="process_stats_total_duration"><xliff:g id="usedRam">%1$s</xliff:g>
+        of <xliff:g id="totalRam">%2$s</xliff:g> used over last
+        <xliff:g id="timeDuration">%3$s</xliff:g></string>
+    <!-- [CHAR LIMIT=NONE] Label for process stats, duration of time the stats are over;
+         timeDuration is a duration such as "1h 30m" -->
+    <string name="process_stats_total_duration_percentage"><xliff:g id="percent" example="50%">%1$s</xliff:g>
+        of RAM used over
+        <xliff:g id="timeDuration">%2$s</xliff:g></string>
+    <!-- [CHAR LIMIT=NONE] Label for process stats, text for stats type -->
+    <string name="process_stats_type_background">Background</string>
+    <!-- [CHAR LIMIT=NONE] Label for process stats, text for stats type -->
+    <string name="process_stats_type_foreground">Foreground</string>
+    <!-- [CHAR LIMIT=NONE] Label for process stats, text for stats type -->
+    <string name="process_stats_type_cached">Cached</string>
+    <!-- [CHAR LIMIT=NONE] Label OS "process" app -->
+    <string name="process_stats_os_label">Android OS</string>
+    <!-- [CHAR LIMIT=NONE] Name of OS "process" for all native processes -->
+    <string name="process_stats_os_native">Native</string>
+    <!-- [CHAR LIMIT=NONE] Name of OS "process" for all kernel memory -->
+    <string name="process_stats_os_kernel">Kernel</string>
+    <!-- [CHAR LIMIT=NONE] Name of OS "process" for all zram memory -->
+    <string name="process_stats_os_zram">Z-Ram</string>
+    <!-- [CHAR LIMIT=NONE] Name of OS "process" for base memory needed for caches -->
+    <string name="process_stats_os_cache">Caches</string>
+    <!-- [CHAR LIMIT=NONE] Label for item showing details of average RAM use -->
+    <string name="process_stats_ram_use">RAM use</string>
+    <!-- [CHAR LIMIT=NONE] Label for item showing details of average RAM use -->
+    <string name="process_stats_bg_ram_use">RAM use (background)</string>
+    <!-- [CHAR LIMIT=NONE] Label for item showing percent of time spent running -->
+    <string name="process_stats_run_time">Run time</string>
+    <!-- [CHAR LIMIT=NONE] Subtitle for process stats processes list -->
+    <string name="processes_subtitle">Processes</string>
+    <!-- [CHAR LIMIT=NONE] Subtitle for process stats services list -->
+    <string name="services_subtitle">Services</string>
+    <!-- [CHAR LIMIT=NONE] Menu for process stats to select duration of stats to show -->
+    <string name="menu_proc_stats_duration">Duration</string>
+    <!-- [CHAR LIMIT=NONE] Activity title for process stats details on overall memory state -->
+    <string name="mem_details_title">Memory details</string>
+    <!-- [CHAR LIMIT=NONE] Subtitle for process stats memory state details for list of memory states -->
+    <string name="mem_state_subtitle">Memory states</string>
+    <!-- [CHAR LIMIT=NONE] Subtitle for process stats memory state details for list of memory use -->
+    <string name="mem_use_subtitle">Memory use</string>
+    <!-- [CHAR LIMIT=NONE] Type of memory use associated with the kernel -->
+    <string name="mem_use_kernel_type">Kernel</string>
+    <!-- [CHAR LIMIT=NONE] Type of memory use associated with native processes -->
+    <string name="mem_use_native_type">Native</string>
+    <!-- [CHAR LIMIT=NONE] Type of memory use associated with kernel caches -->
+    <string name="mem_use_kernel_cache_type">Kernel caches</string>
+    <!-- [CHAR LIMIT=NONE] Type of memory use associated with kernel zram swap -->
+    <string name="mem_use_zram_type">ZRam swap</string>
+    <!-- [CHAR LIMIT=NONE] Type of memory use that is available/free -->
+    <string name="mem_use_free_type">Free</string>
+    <!-- [CHAR LIMIT=NONE] Total of all memory use -->
+    <string name="mem_use_total">Total</string>
+    <!-- [CHAR LIMIT=NONE] Menu for process stats to show 3 hours of data -->
+    <string name="menu_duration_3h">3 hours</string>
+    <!-- [CHAR LIMIT=NONE] Menu for process stats to show 3 hours of data -->
+    <string name="menu_duration_6h">6 hours</string>
+    <!-- [CHAR LIMIT=NONE] Menu for process stats to show 3 hours of data -->
+    <string name="menu_duration_12h">12 hours</string>
+    <!-- [CHAR LIMIT=NONE] Menu for process stats to show 3 hours of data -->
+    <string name="menu_duration_1d">1 day</string>
+    <!-- [CHAR LIMIT=NONE] Menu for manage apps to control whether system processes are shown -->
+    <string name="menu_show_system">Show system</string>
+    <!-- [CHAR LIMIT=NONE] Menu for manage apps to control whether system processes are hidden -->
+    <string name="menu_hide_system">Hide system</string>
+    <!-- [CHAR LIMIT=NONE] Menu for process stats to control whether stats are shown
+         as percentages-->
+    <string name="menu_show_percentage">Show percentages</string>
+    <!-- [CHAR LIMIT=NONE] Menu for process stats to control whether computation should be based
+        on Uss (Unique Set Size) instead of Pss (Proportional Set Size) -->
+    <string name="menu_use_uss">Use Uss</string>
+    <!-- [CHAR LIMIT=NONE] Menu for process stats to select which type of stats to show -->
+    <string name="menu_proc_stats_type">Stats type</string>
+    <!-- [CHAR LIMIT=NONE] Menu for process stats to show information on background processes -->
+    <string name="menu_proc_stats_type_background">Background</string>
+    <!-- [CHAR LIMIT=NONE] Menu for process stats to show information on foreground processes -->
+    <string name="menu_proc_stats_type_foreground">Foreground</string>
+    <!-- [CHAR LIMIT=NONE] Menu for process stats to show information on cached processes -->
+    <string name="menu_proc_stats_type_cached">Cached</string>
+
+    !-- Title for screen showing recent memory usage of device [CHAR LIMIT=30]-->
+    <string name="memory_settings_title">Memory</string>
+
+    <!-- Title for screen showing recent memory usage of specific app [CHAR LIMIT=30]-->
+    <string name="memory_details_title">Memory details</string>
+
+    <!-- Description of app always running [CHAR LIMIT=45] -->
+    <string name="always_running">Always running (<xliff:g id="percentage" example="5%">%s</xliff:g>)</string>
+
+    <!-- Description of app sometimes running [CHAR LIMIT=45] -->
+    <string name="sometimes_running">Sometimes running (<xliff:g id="percentage" example="5%">%s</xliff:g>)</string>
+
+    <!-- Description of app rarely running [CHAR LIMIT=45] -->
+    <string name="rarely_running">Rarely running (<xliff:g id="percentage" example="5%">%s</xliff:g>)</string>
+
+    <!-- Maximum memory usage key [CHAR LIMIT=25] -->
+    <string name="memory_max_use">Maximum</string>
+
+    <!-- Average memory usage key [CHAR LIMIT=25] -->
+    <string name="memory_avg_use">Average</string>
+
+    <!-- Maximum memory used by an app [CHAR LIMIT=25] -->
+    <string name="memory_max_desc">Maximum <xliff:g id="memory" example="30MB">%1$s</xliff:g></string>
+
+    <!-- Average memory used by an app [CHAR LIMIT=25] -->
+    <string name="memory_avg_desc">Average <xliff:g id="memory" example="30MB">%1$s</xliff:g></string>
+
+    <!-- Formatting for memory description [CHAR LIMIT=25] -->
+    <string name="memory_use_running_format"><xliff:g id="memory" example="30MB">%1$s</xliff:g> / <xliff:g id="running" example="Always running">%2$s</xliff:g></string>
+
+    <!-- Label for process [CHAR LIMIT=25] -->
+    <string name="process_format"><xliff:g id="app_name" example="Settings">%1$s</xliff:g> (<xliff:g id="count" example="3">%2$d</xliff:g>)</string>
+
+
+
+</resources>

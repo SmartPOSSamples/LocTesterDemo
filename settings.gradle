@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "electronic_fence_sample"
